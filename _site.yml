@@ -1,7 +1,7 @@
-name: "YingTing Lu"
+name: "My Website"
 output_dir: "."
 navbar:
-  title: "NavBar Title"
+  title: "YingTing Lu"
   right:
     - text: "Home"
       href: index.html
