@@ -1,14 +1,25 @@
-name: "Yay internet!"
-output_dir: "."
+name: "YingTing Lu"
+output_dir: "docs"  # 如果用 GitHub Pages，推薦用 "docs"
+
 navbar:
-  title: "Home"
+  title: "YingTing Lu"
   right:
-    - text: "About"
-      href: about.html
-    - icon: fa-github fa-lg
-      href: http://github.com/jmclip
+    - text: "CV"
+      href: cv.html  
+    - icon: "fab fa-github"
+      href: https://github.com/luyt2153
+
 sidebar:
-  - getting-started
+  - text: "Home"
+    href: index.html
+  - text: "Projects"
+    href: projects.html
+  - text: "CV"
+    href: cv.html
+
 output:
   html_document:
     theme: spacelab
+    toc: true  # 顯示目錄
+    toc_float: true  # 讓目錄浮動
+    number_sections: true  # 讓標題有編號
